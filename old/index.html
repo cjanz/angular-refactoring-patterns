@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Old Code</title>
+</head>
+<body ng-app="myTestApp" ng>
+
+    <main ng-controller="MainCtrl">
+        <ul ng-controller="RepoListCtrl">
+            <li ng-repeat="repo in repos" ng-click="selectRepo(repo)">
+                {{repo}}
+            </li>
+        </ul>
+
+        <div>
+            Selected Repo: {{selectedRepo}}
+        </div>
+    </main>
+
+
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="app.js"></script>
+    <script src="github.service.js"></script>
+    <script src="main.ctrl.js"></script>
+    <script src="repoList.ctrl.js"></script>
+</body>
+</html>

@@ -1,0 +1,4 @@
+.idea
+node_modules
+old/bower_components
+new/jspm_packages

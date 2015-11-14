@@ -1,0 +1,14 @@
+{
+  "name": "old",
+  "authors": [
+    "Christian Janz <christian.janz@bridging-it.de>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "homepage": "",
+  "private": true,
+  "dependencies": {
+    "angular": "~1.4.7"
+  }
+}

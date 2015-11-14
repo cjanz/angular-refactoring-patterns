@@ -1,0 +1,21 @@
+{
+  "name": "angular-refactoring-patterns",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "jspm": {
+    "directories": {
+      "baseURL": "."
+    },
+    "dependencies": {
+      "angular": "github:angular/bower-angular@^1.4.7"
+    }
+  },
+  "devDependencies": {
+    "jspm": "^0.16.14"
+  }
+}
